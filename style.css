@@ -1,0 +1,110 @@
+﻿@charset "UTF-8";
+
+/* 全体のCSS */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+body{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #000;
+}
+
+.wrapper{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+/* header */
+
+header{
+	width: 900px;
+	margin-bottom: 20px;
+}
+
+/* main */
+
+.main-nav{
+	width: 166px;
+	float: left;
+	margin: 0 10px;
+	padding: 5px 5px;
+	background-color: #dbe0ee;
+	border: solid 1px #6f6d9e;
+}
+
+.main-nav li{
+	font-size: 14px;
+	background-color: #fff;
+	margin: 8px;
+	list-style: none;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	display: block;
+	border: solid 1px #6f6d9e;
+	line-height: 2.6;
+	padding-left: 10px;
+}
+
+a:hover{
+	color: #fff;
+	background: #008000;
+}
+
+.menu{
+	width: 690px;
+	float: right;
+	margin-right: 5px;
+}
+
+.menu img{
+	margin-bottom: 10px;
+}
+
+.osusume,.ume,.chirashi,.sashimi{
+	width: 220px;
+	float: left;
+	border: solid 1px #6f6d9e;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.jyo,.syabusyabu{
+	width: 220px;
+	float: left;
+	border: solid 1px #6f6d9e;
+	margin:0 12px 10px 12px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.menu span{
+	font-size: 14px;
+}
+
+/* footer */
+
+footer{
+	font-weight: normal;
+	text-align: right;
+	border-top: solid 1px #6f6d9e;
+	padding: 15px;
+}
